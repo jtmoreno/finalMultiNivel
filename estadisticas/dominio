@@ -1,0 +1,9 @@
+class Estadistica:
+
+    def calcular_progreso(self, clases_vistas, total_clases):
+        if total_clases == 0:
+            return 0
+        return (clases_vistas * 100) / total_clases
+git add .
+git commit -m "Implementa módulo de estadísticas en Python para cálculo de progreso"
+git push
